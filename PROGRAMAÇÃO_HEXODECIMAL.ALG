@@ -1,21 +1,20 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 20/03/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 NUM: inteiro
 DIVISOR: inteiro
 RESULTADO1: inteiro
 RESULTADO2: inteiro
-HEXADECIMAL: caractere
 RESTO1: inteiro
 RESTO2: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
-ESCREVAL("Digite um número (ou 999 para finalizar a tarefa")
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+ESCREVAL("Digite um nÃºmero (ou 999 para finalizar a tarefa")
 LEIA(NUM)
 SE NUM < 999 ENTAO
 RESTO1 <- NUM % 16
@@ -25,7 +24,7 @@ ESCREVAL("")
    SE(RESULTADO1 > 0)ENTAO
    RESTO2 <- RESULTADO1 % 16
    RESULTADO2 <- RESULTADO1 \ 16
-   ESCREVAL("O RESULTADO DA DIVISÃO DO RESULTADO FOI=" , RESULTADO2, " E O RESTO FOI=" , RESTO2)
+   ESCREVAL("O RESULTADO DA DIVISÃƒO DO RESULTADO FOI=" , RESULTADO2, " E O RESTO FOI=" , RESTO2)
    ESCREVAL("")
    FIMSE
       SE (RESULTADO2 = 0) OU (RESTO2 = 0) OU (RESTO1 = 0)ENTAO
